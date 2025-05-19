@@ -1,0 +1,5 @@
+2025-05-15 11:57:55,898 - INFO - Opening File: C:\Users\dejan\Desktop\selenium day2\Selenuim2\Login_Page.html
+2025-05-15 11:57:56,009 - INFO - Enter email and password
+2025-05-15 11:57:56,467 - INFO - screenshot saved berfore popup appears
+2025-05-15 11:57:56,515 - INFO - Popup message:You have successfully logged in!
+2025-05-15 11:57:56,523 - INFO - Login popup test passsed on: chrome

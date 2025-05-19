@@ -1,0 +1,7 @@
+Keyword,Locatortype,Locatorvalue,Data
+open_Browser,,,file:///C:/Users/dejan/Desktop/selenium day2/loginkeys.html
+enter_text, id,email,keys@yahoo.com
+enter_text, id,password,###key13%st
+click,id,loginButton,
+wait,,,3
+verify_popup_message,,,Login successful!
