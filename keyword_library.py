@@ -7,7 +7,7 @@ class KeywordLibrary:
     def __init__(self, driver):
         self.driver = driver
     #Open the browser using the url/path from the csv file
-    def open_browser(self, url):
+    def open_Browser(self, url):
         self.driver.get(url)
         self.driver.maximize_window() #??
     #Enter the email from the csv file
@@ -40,6 +40,8 @@ class KeywordLibrary:
             "css":By.CSS_SELECTOR
         }
         return self.driver.find_element(locator_map[locator_type],locator_value)
+ 
+
 
      
             

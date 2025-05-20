@@ -21,9 +21,11 @@ def test_login_popup(driver):
     try:
         #test case 1 valid details
         logging.info("Enter email and password")
-        driver.find_element(By.CLASS_NAME, "email"). send_keys("Selenium25@gmail.com")
-        driver.find_element(By.CLASS_NAME, "password"). send_keys("Y0uMade1t&3&&")
-        driver.find_element(By.ID, "login-btn").click()
+        #driver.find_element(By.CLASS_NAME, "email"). send_keys("Selenium25@gmail.com")
+        #driver.find_element(By.CLASS_NAME, "password"). send_keys("Y0uMade1t&3&&")
+        #driver.find_element(By.ID, "login-btn").click()
+        #test case 003
+        
         #take a screenshot
         driver.save_screenshot("screenshot_before_popup.png")
         logging.info("screenshot saved berfore popup appears")
