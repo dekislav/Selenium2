@@ -38,7 +38,7 @@ def test_login_popup(driver):
         assert popup. is_displayed(), "Login did not display the popup"
         assert "successfully" in popup_message.lower(),f"unexpected message: {popup_message}"
         logging.info("Login popup test passsed on: %s", driver.name )
-        #time.sleep(5)
+        #time.sleep(3)
         #error handling
     except Exception as e:
         logging.error("An error occured during testing:%s",e)
